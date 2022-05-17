@@ -1,0 +1,144 @@
+extends partials/layout.pug
+
+block content
+  - var yours = lead.model.family.toUpperCase().indexOf('CAPTIVA') > 0 ? 'tuya' : 'tuyo'
+  - var thisModel = lead.model.family.toUpperCase().indexOf('CAPTIVA') > 0 ? 'esta' : 'este'
+  - var wamessage = encodeURI('Necesito más información sobre ' + lead.model.family + ' y planes de financiamiento')
+
+  style(type='text/css').
+    body table tr td {
+        font-family: Louis, Arial, Helvetica, sans-serif;
+        width: 609px;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    .chevrolet_louis {
+        font-family: Louis;
+    }
+
+  table(border='0' style='font-family:Louis, Arial, Helvetica, sans-serif; border-bottom: 3px solid #ecaa00; color:#6E6D72; width: 609px;' cellspacing='0' cellpadding='0')
+    tr
+      td(colspan='2' style='text-align: center; padding: 15px 0')
+        a(href='https://www.chevrolet.com.co/' style='text-decoration: none;')
+          img(src='https://storage.googleapis.com/gm_static_files/gminfoleads_img/emails/custom/chevrolet.png' alt='Chevrolet' title='Chevrolet' style='max-height: 40px; vertical-align: middle;')
+        if lead.campaign.isDdp
+          a(href=lead.dealerDealership.urlWebsite style='text-decoration: none;')
+            img(src=encodeURI(lead.dealerDealership.image) alt='Concesionario' title='Chevrolet' style='max-height: 40px; margin-left: 20px; vertical-align: middle;')
+    tr
+      td(colspan='2')
+        img(src=encodeURI(lead.model.image) alt=lead.model.family title=lead.model.family style='width: 609px;margin-bottom: 15px;border-bottom: 3px solid #ecaa00; border-top: 3px solid #000000;')
+    tr
+      td(colspan='2' style='text-align: center; font-size:36px; font-weight:bold; font-style:italic; padding: 0 25px; text-transform: uppercase;')
+        | Hola 
+        span(style='color:#ecaa00;') #{name}
+    tr
+      td(colspan='2' style='text-align: center; font-size:18px; font-weight:bold; font-style:italic; padding: 0 25px; text-transform: uppercase;')
+        | &iquest;Qu&eacute; esperas para que #{thisModel} 
+        span(style='color:#ecaa00;') #{lead.model.family}
+        |  sea #{ yours }?
+    tr
+      td(style='padding: 50px 0 0 20px; vertical-align: top;')
+        img(style='height: 551px;' src='https://storage.googleapis.com/gm_static_files/gminfoleads_img/emails/custom/leftItemsCO.png' alt='Info')
+      td(style='padding: 50px 0 0 0; vertical-align: top;')
+        table(style='width: 304px;' cellpadding='0' cellspacing='0')
+          tr
+            td(style='text-align: right;')
+              img(style='width: 250px; margin-bottom: 50px;' src='https://storage.googleapis.com/gm_static_files/gminfoleads_img/emails/custom/rightItem1.png' alt='Lista')
+          tr
+            td
+              table(cellpadding='0' cellspacing='0')
+                tr
+                  td(style='width: 120px;')
+                    hr(style=lead.dealerDealership.whatsapp ? 'border: none;border-top: 2px dashed #6E6D72;width: 30px;margin: 0 20px 0 0;' : 'border: none;border-top: 2px dashed #6E6D72;width: 100px;margin: 0 0 0 0;')
+                  td
+                    a(style='text-decoration: none;display: block;height: 60px;margin-bottom: 5px;' href='tel:' + lead.dealerDealership.telephone)
+                      img(style='width: 60px;height:60px;' src='https://storage.googleapis.com/gm_static_files/gminfoleads_img/emails/custom/callIcon.png' alt='Llámanos')
+                  if lead.dealerDealership.whatsapp
+                    td
+                      hr(style='border: none;border-top: 2px dashed #6E6D72;width: 30px;margin: 0 20px 0 35px;')
+                    td
+                      a(style='text-decoration: none;display: block;height: 60px;margin-bottom: 5px;' href=`${host}/funnels_public/save_click?whatsapp=${crypted}`)
+                        img(style='width: 60px;height:60px;margin-right: 30px;' src='https://storage.googleapis.com/gm_static_files/gminfoleads_img/emails/custom/wa.png' alt='WhatsApp')
+          tr
+            td(style='height: 30px;')
+              table(style='width: 100%;' cellpadding='0' cellspacing='0')
+                tr
+                  td(style='text-align: center;width: 30px;')
+                    a(style='text-decoration: none;display: block;height: 28px;' href='tel:' + lead.dealerDealership.telephone)
+                      img(style='width: 130px;height:28px;' src='https://storage.googleapis.com/gm_static_files/gminfoleads_img/emails/custom/callUs.png' alt='Llámanos')
+                  if lead.dealerDealership.whatsapp
+                    td(style='text-align: center;width: 30px;')
+                      a(style='text-decoration: none;display: block;height: 28px;' href=`${host}/funnels_public/save_click?whatsapp=${crypted}`)
+                        img(style='width: 130px;height:28px;' src='https://storage.googleapis.com/gm_static_files/gminfoleads_img/emails/custom/contactUs.png' alt='Contáctanos')
+          tr
+            td(style='padding: 0;')
+              if lead.dealerDealership.whatsapp
+                img(style='width: 230px;height:40px;margin-bottom: 10px;' src='https://storage.googleapis.com/gm_static_files/gminfoleads_img/emails/custom/border1.png' alt='Border')
+              else
+                img(style='width: 150px;height:40px;margin-bottom: 10px;' src='https://storage.googleapis.com/gm_static_files/gminfoleads_img/emails/custom/border3.png' alt='Border')
+          tr
+            td(style='height: 30px;')
+              table(style='table-layout: fixed;' cellpadding='0' cellspacing='0')
+                tr
+                  td(style='padding: 0;width: 90px;')
+                    img(style='width: 90px;height:90px;' src='https://storage.googleapis.com/gm_static_files/gminfoleads_img/emails/custom/border2.png' alt='Border')
+                  td(style='text-align: center;width: 130px;')
+                    a(style='text-decoration: none;display: block;height: 60px;margin-bottom: 5px;' href=`${host}/funnels_public/save_click?location=${crypted}`)
+                      img(style='width: 60px;height:60px;' src='https://storage.googleapis.com/gm_static_files/gminfoleads_img/emails/custom/maps.png' alt='Maps')
+                    a(href=lead.dealerDealership.urlLocation style='display: block;height: 28px;')
+                      img(style='width: 130px;height:28px;' src='https://storage.googleapis.com/gm_static_files/gminfoleads_img/emails/custom/visitUs.png' alt='Visítanos')
+          tr
+            td(style='text-align: center;')
+              div(style='width: 250px;height:46px;padding: 5px 0;margin-left: 50px;margin-top: 10px;')
+                a(href='https://www.chevrolet.com.co/gm-financial' style='display: block;max-height: 46px;')
+                  img(style='width: 250px;height:46px;' src='https://storage.googleapis.com/gm_static_files/gminfoleads_img/emails/custom/applyHere.png' alt='Aplica aquí')
+          tr
+            td(style='text-align: right;')
+              div(style='width: 250px;margin-left: 50px;text-align: center;')
+                a(href=lead.model.url style='margin-top: 15px;display: block;max-height: 100px;')
+                  img(style='max-height: 100px;' src=encodeURI(lead.model.additionalImage) alt=lead.model.family)
+          tr
+            td(style='text-align: center;')
+              div(style='width: 250px;height:46px;padding: 5px 0;margin-left: 50px;margin-top: 10px;')
+                a(href=lead.model.url style='display: block;max-height: 46px;')
+                  img(style='width: 250px;height:46px;' src='https://storage.googleapis.com/gm_static_files/gminfoleads_img/emails/custom/specs.png' alt='Ficha técnica')
+  table(style='width: 609px;' cellpadding='0' cellspacing='0')
+    tr
+      td(colspan='4')
+        span(style='font-size: 9px; font-weight: 600;') S&iacute;guenos en:
+        if lead.dealerDealership.urlFacebook
+          a(href=lead.dealerDealership.urlFacebook style='text-decoration: none;')
+            img(style='vertical-align: middle;width: 15px;' src='https://storage.googleapis.com/gm_static_files/gminfoleads_img/emails/custom/social/facebook.png' alt='Facebook')
+        if lead.dealerDealership.urlYoutube
+          a(href=lead.dealerDealership.urlYoutube style='text-decoration: none;')
+            img(style='vertical-align: middle;width: 15px;' src='https://storage.googleapis.com/gm_static_files/gminfoleads_img/emails/custom/social/youtube.png' alt='Youtube')
+        if lead.dealerDealership.urlTwitter
+          a(href=lead.dealerDealership.urlTwitter style='text-decoration: none;')
+            img(style='vertical-align: middle;width: 15px;' src='https://storage.googleapis.com/gm_static_files/gminfoleads_img/emails/custom/social/twitter.png' alt='Twitter')
+        if lead.dealerDealership.urlGplus
+          a(href=lead.dealerDealership.urlGplus style='text-decoration: none;')
+            img(style='vertical-align: middle;width: 15px;' src='https://storage.googleapis.com/gm_static_files/gminfoleads_img/emails/custom/social/gplus.png' alt='Google+')
+        if lead.dealerDealership.urlInstagram
+          a(href=lead.dealerDealership.urlInstagram style='text-decoration: none;')
+            img(style='vertical-align: middle;width: 15px;' src='https://storage.googleapis.com/gm_static_files/gminfoleads_img/emails/custom/social/instagram.png' alt='Instagram')
+    tr
+      td(colspan='4')
+        img(style='margin-top: 15px; margin-bottom: 15px; width: 150px;' src='https://storage.googleapis.com/gm_static_files/gminfoleads_img/emails/custom/findnewroads.png' alt='FIND NEW ROADS')
+    tr
+      td
+        a(style='font-weight: 600; font-size: 8px; color: #6e6d72; text-decoration: none;' href='') Aspectos legales
+      td
+        a(style='font-weight: 600; font-size: 8px; color: #6e6d72; text-decoration: none;' href='') Pol&iacute;ticas y privacidad
+      td
+        a(style='font-weight: 600; font-size: 8px; color: #6e6d72; text-decoration: none;' href='') Call Center 1800 CHEVROLET (243876)
+      td
+    tr
+      td(colspan='4' style='padding-top: 10px; font-size: 8px; color: #6e6d72; text-align: justify;')
+        | Aplican condiciones y restricciones. promoci&oacute;n y ofertas sujetas a cambios sin previo aviso. La informaci&oacute;n de la ficha t&eacute;cnica, colores, modelos, versiones, im&aacute;genes, precios, descuentos, otras especificaciones y dem&aacute;s son meramente referenciales e ilustrativas y pueden no coincidir con los productos exhibidos y ofrecidos en los Concesionarios autorizados Chevrolet. Parte de esta informaci&oacute;n puede ya haber sido actualizada debido a la variedad y opciones de promoci&oacute;n y ofertas sujetas a cambios sin previo aviso de Chevrolet, por lo que sugerimos confirmarla con los distribuidores oficiales de la marca Chevrolet. Las im&aacute;genes no representan a cabalidad el detalle visual y t&eacute;cnico de la versi&oacute;n presentada en esta comunicaci&oacute;n. Para verificar los atributos y especificaciones t&eacute;cnicas del modelo comun&iacute;quese a cualquiera de nuestros puntos de venta.
+        br
+        | El precio expuesto es sugerido y puede variar seg&uacute;n condiciones de mercado, especificaciones, versiones, componentes, equipos opcionales, financiamiento, etc. Adem&aacute;s de ser referenciales pueden contener errores de digitaci&oacute;n o de sistemas. Consulte con su asesor por los precios vigentes al momento de efectuar su compra. Para mayor informaci&oacute;n y detalles ac&eacute;rquese al Concesionario Autorizado Chevolet de su preferencia.
+        br
+        | * Los logos de las distintas marcas usadas pertenecen exclusivamente a los propietarios de las redes sociales correspondientes.

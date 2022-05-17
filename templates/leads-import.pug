@@ -1,0 +1,17 @@
+extends partials/layout.pug
+include mixins/paragraph.pug
+include mixins/link.pug
+include mixins/container.pug
+
+block content
+    +container()
+        +paragraph &nbsp;
+        +paragraph Hola,
+        +paragraph &nbsp;
+        +paragraph #{message}
+        +paragraph &nbsp;
+        if sendErrorsEmail
+          +link(`${errorsURL}`, 'Archivo de Errores') Archivo de Errores
+    +container()
+        +paragraph 
+            | GM Infoleads

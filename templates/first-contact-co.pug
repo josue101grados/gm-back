@@ -1,0 +1,151 @@
+extends partials/layout.pug
+
+block content
+  - var yours = lead.model.family.toUpperCase().indexOf('CAPTIVA') > 0 ? 'tuya' : 'tuyo'
+  - var thisModel = lead.model.family.toUpperCase().indexOf('CAPTIVA') > 0 ? 'esta' : 'este'
+  - var wamessage = encodeURI('Necesito más información sobre ' + lead.model.family + ' y planes de financiamiento')
+  
+  table(style='background-color: #ffffff;' width='600' cellspacing='0' cellpadding='0' border='0' align='center')
+    tbody
+      tr
+        td(style='padding: 10px 0px 15px 0px;' align='center')
+          table(style='background-color: #ffffff;' width='auto' cellspacing='0' cellpadding='0' border='0' align='center')
+            tbody
+              tr
+                td(style='padding: 0px 0px 0px 20px;' width='131' align='right')
+                  img(style='display: block;' src='https://storage.googleapis.com/gm_static_files/gminfoleads_img/emails/first_contact/logo-chevrolet.jpg' alt='Logo Chevrolet' width='131')
+                td(style='padding: 0px 0px 0px 20px;' align='left')
+                  img(style='display: block;' src=encodeURI(lead.dealerDealership.image) alt='Logo Dealer' width='auto')
+  table(style='background-color: #ffffff;' width='600' cellspacing='0' cellpadding='0' border='0' align='center')
+    tbody
+      tr
+        td(width='600')
+          a(href=`${host}/funnels_public/save_click?header=${crypted}` target='_blank')
+            img(style='display: block;' src=encodeURI(lead.model.image) alt='Gracias por registrarte' width='600')
+  table(align='center' width='600' border='0' cellspacing='0' cellpadding='0')
+    tbody
+      tr
+        td(align='center' bgcolor='#000000' style="background-image: url('https://storage.googleapis.com/gm_static_files/gminfoleads_img/emails/first_contact/bottom-bar.jpg');\
+        background-repeat: no-repeat;\
+        background-size: cover; \
+        background-position:center;\
+        background-color:#FFFFFF")
+          //if gte mso 9
+            v:rect(xmlns:v='urn:schemas-microsoft-com:vml' fill='true' stroke='false' style='mso-width-percent:615;')
+              v:fill(type='frame' src='https://storage.googleapis.com/gm_static_files/gminfoleads_img/emails/first_contact/bottom-bar.jpg' color='#000000')
+                v:textbox(style='mso-fit-shape-to-text:true' inset='0,0,0,0')
+          div
+            table(width='auto' style='height: 68px;' align='center' cellspacing='0' cellpadding='0' border='0')
+              tbody
+                tr
+                  td(align='center' style='padding: 0px 0px 0px 0px;')
+                    p(style='font-family:Arial, sans-serif;color:#383938;font-size:20px;font-weight:normal;line-height: 1.3em;font-style: normal;margin:0px; padding:0px;')
+                      b #{name}
+                      |  &iexcl;entremos en contacto ya!
+          //if gte mso 9
+  table(style='background-color: #ffffff;' width='600' cellspacing='0' cellpadding='0' border='0' align='center')
+    tbody
+      tr
+        td(width='600')
+          img(style='display: block;' src='https://storage.googleapis.com/gm_static_files/gminfoleads_img/emails/first_contact/bottom-border.jpg' alt='Borde inferior' width='600')
+  table(style='background-color: #ffffff;' width='600' cellspacing='0' cellpadding='0' border='0' align='center')
+    tbody
+      tr
+        td(width='600')
+          a(href=`${host}/funnels_public/save_click?model=${crypted}`  target='_blank')
+            img(style='display: block;' src=encodeURI(lead.model.additionalImage) alt='Modelo auto' width='600')
+  table(style='background-color: #ffffff;' width='600' cellspacing='0' cellpadding='0' border='0' align='center')
+    tbody
+      tr
+        td(width='600')
+          img(style='display: block;' src='https://storage.googleapis.com/gm_static_files/gminfoleads_img/emails/first_contact/gray-border.jpg' alt='Borde gris' width='600')
+  table(style='background-color: #ffffff;' width='600' cellspacing='0' cellpadding='0' border='0' align='center')
+    tbody
+      tr
+        td(style='padding: 10px 0px 10px 0px;' align='center')
+          p(style='font-family:Arial, Helvetica, sans-serif;color:#383938;font-size:18px;font-weight:normal;line-height: 1.3em;font-style: normal;margin:0px; padding:0px;')
+            b Recuerda que puedes contactarte con nosotros
+            br
+            |                         por nuestros canales.
+  table(style='background-color: #ffffff;' width='600' cellspacing='0' cellpadding='0' border='0' align='center')
+    tbody
+      tr
+        td(align='center')
+          a(href=`${host}/funnels_public/save_click?whatsapp=${crypted}` target='_blank')
+            img(style='display: block;' src='https://storage.googleapis.com/gm_static_files/gminfoleads_img/emails/first_contact/whatsapp-button.gif' alt='Whatsapp' width='auto')
+  table(style='background-color: #ffffff;' width='600' cellspacing='0' cellpadding='0' border='0' align='center')
+    tbody
+      tr
+        td
+          table(width='auto' cellspacing='0' cellpadding='0' border='0' align='center')
+            tbody
+              tr
+                td(align='right' width='29')
+                  a(href=`${host}/funnels_public/save_click?callUs=${crypted}` target='_blank')
+                    img(style='display: block;' src='https://storage.googleapis.com/gm_static_files/gminfoleads_img/emails/first_contact/call-us.jpg' alt='teléfono' width='29')
+                td(style='padding: 0px 25px 0px 10px;' align='right')
+                  p(style='font-family:Arial, Helvetica, sans-serif;color:#383938;font-size:17px;font-weight:bold;line-height: 1.3em;font-style: normal;margin:0px; padding:0px;text-transform: uppercase;')
+                    a(style='color:#383938;text-decoration: none;border-bottom: 2px solid #383938;' href=`${host}/funnels_public/save_click?callUs=${crypted}` target='_blank') ll&aacute;manos
+                td(align='center')
+                  p(style='font-family:Arial, Helvetica, sans-serif;color:#383938;font-size:17px;font-weight:normal;line-height: 1.3em;font-style: normal;margin:0px; padding:0px;')
+                    | o
+                td(style='padding: 0px 10px 0px 25px;' align='left' width='29')
+                  a(href=`${host}/funnels_public/save_click?location=${crypted}` target='_blank')
+                    img(style='display: block;' src='https://storage.googleapis.com/gm_static_files/gminfoleads_img/emails/first_contact/google-maps.jpg' alt='Google maps' width='29')
+                td(align='left')
+                  p(style='font-family:Arial, Helvetica, sans-serif;color:#383938;font-size:17px;font-weight:bold;line-height: 1.3em;font-style: normal;margin:0px; padding:0px;text-transform: uppercase;')
+                    a(style='color:#383938;text-decoration: none;border-bottom: 2px solid #383938;' href=`${host}/funnels_public/save_click?location=${crypted}` target='_blank') vis&iacute;tanos
+  table(style='background-color: #ffffff;' width='600' cellspacing='0' cellpadding='0' border='0' align='center')
+    tbody
+      tr
+        td(style='padding: 20px 0px 0px 0px;' align='center')
+          hr(style='background-color: #DDDEDE;border: 0;height: 3px;margin: 0px;padding:0px;width: 560px;')
+  table(style='background-color:#FFFFFF;' width='600' cellspacing='0' cellpadding='0' align='center')
+    tbody
+      tr
+        td
+          table(valign='top' style='margin: 20px 0px 20px 0px;' width='600' cellspacing='0' cellpadding='0' border='0' align='center')
+            tbody
+              tr
+                td(align='left' style='padding: 0px 0px 0px 30px;')
+                  a(href='https://www.chevrolet.com.co/' target='_blank')
+                    img(src='https://storage.googleapis.com/gm_static_files/gminfoleads_img/emails/first_contact/find-new-roads.png' alt='Find new roads' border='0' style='display: block;')
+                td(align='right' style='padding: 0px 0px 0px 0px; width: 41px;')
+                  a(href='https://www.facebook.com/chevroletcolombia/' target='_blank')
+                    img(src='https://storage.googleapis.com/gm_static_files/gminfoleads_img/emails/first_contact/facebook-icon.png' alt='Facebook' border='0' style='display: block;')
+                td(align='right' style='padding: 0px 0px 0px 0px; width: 41px;')
+                  a(href='https://twitter.com/chevroletco' target='_blank')
+                    img(src='https://storage.googleapis.com/gm_static_files/gminfoleads_img/emails/first_contact/twitter-icon.png' alt='Twitter' border='0' style='display: block;')
+                td(align='right' style='padding: 0px 0px 0px 0px; width: 41px;')
+                  a(href='https://www.youtube.com/chevroletcolombia' target='_blank')
+                    img(src='https://storage.googleapis.com/gm_static_files/gminfoleads_img/emails/first_contact/youtube-icon.png' alt='Youtube' border='0' style='display: block;')
+                td(align='right' style='padding: 0px 30px 0px 0px; width: 41px;')
+                  a(href='https://www.instagram.com/chevroletco/' target='_blank')
+                    img(src='https://storage.googleapis.com/gm_static_files/gminfoleads_img/emails/first_contact/instagram-icon.png' alt='Instagram' border='0' style='display: block;')
+  table(style='background-color: #FFFFFF;' role='presentation' width='600' cellspacing='0' cellpadding='0' align='center')
+    tbody
+      tr
+        td(style='padding: 0px 0px 5px 0px; margin: 0px;' align='center')
+          table(role='presentation' width='540' cellspacing='0' cellpadding='0' border='0' align='center' style='margin-top: 0px;')
+            tbody
+              tr
+                td(align='center' width='auto' style='padding-left: 2px; padding-right: 2px;')
+                  p(style='font-family:Arial, Helvetica, sans-serif;font-size:10px;font-style:normal;line-height:1em;color:#343535;text-align:justify;padding: 0px; margin: 0px;')
+                    a(href='https://www.chevrolet.com.co/content/dam/chevrolet/south-america/colombia/espanol/global-footer/02-pdfs/colombia-aspectos-legales.pdf' target='_blank' style='text-decoration: none;color:inherit; padding-right: 0px; border-bottom: 1px solid #343535;')
+                      | Aspectos Legales
+                td(align='center' width='auto' style='padding-left: 50px; padding-right: 2px;')
+                  p(style='font-family:Arial, Helvetica, sans-serif;font-size:10px;font-style:normal;line-height:1em;color:#343535;text-align:center;padding: 0px; margin: 0px;')
+                    a(href='https://www.chevrolet.com.co/politicas-y-privacidad' style='text-decoration: none;color:inherit; padding-right: 0px; border-bottom: 1px solid #343535;' target='_blank')
+                      | Pol&iacute;ticas y Privacidad
+                td(align='right' width='auto' style='padding-left: 2px;')
+                  p(style='font-family:Arial, Helvetica, sans-serif;font-size:10px;font-style:normal;line-height:1em;color:#343535;text-align:right;padding: 0px; margin: 0px;')
+                    | Call Center 01 8000 (1) 24389 CHEVY
+  table(style='background-color: #FFFFFF;' role='presentation' width='600' cellspacing='0' cellpadding='0' align='center')
+    tbody
+      tr
+        td(style='padding: 5px 30px 12px 30px;' align='center')
+          table(role='presentation' width='100%' cellspacing='0' cellpadding='0' border='0')
+            tbody
+              tr
+                td(style='font-family:Arial;font-size:11px;font-style:normal;line-height:1;color:#343535;text-align:justify')
+                  | Copyright &amp; Todos los derechos reservados
