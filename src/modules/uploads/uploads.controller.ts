@@ -211,7 +211,6 @@ export class UploadsController {
     this.uploads.deleteFile(file.path);
     const userJwt = req.user as JwtToken;
     const user = await this.usersService.findById(userJwt.userId);
-    console.log(req.user);
     await this.tasksService.createTask({
       type: TaskTypes.LIVE_STORE_UPLOAD,
       filePath: fileName,

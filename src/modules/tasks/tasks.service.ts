@@ -40,7 +40,6 @@ export class TasksService extends TypeOrmCrudService<Task> {
     data?: object;
   }) {
     /*  const user = await this.usersService.findById(task.user.id); */
-    console.log(task.user);
 
     await this.repo.save(
       this.repo.create({
