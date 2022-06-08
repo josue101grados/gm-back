@@ -1,0 +1,975 @@
+{
+  "ec": {
+    "data": [
+      {
+        "access_token": "EAAEXZADGg3x4BAJ9hRZBuEfTqTB7foO7yFPzM4ROVuVvIDj9ZBNju9EDxj9kQw4otzQlf8XlZA2ZBTrXGbyGG6WIhSSyPXZAaW4ReEB3uZAz3iSxQaU5DnLnVYIfqElfC4FMg8YGNlccm2L6IqLteVOTq8EsZBL88e2CobOmAQqvj64VDWjAsbPkcQZBri5ZCx3M4ZD",
+        "category": "Automóviles",
+        "category_list": [
+          {
+            "id": "2205",
+            "name": "Automóviles"
+          }
+        ],
+        "name": "Chevrolet",
+        "id": "250788986863",
+        "tasks": [
+          "ANALYZE",
+          "ADVERTISE",
+          "MODERATE",
+          "CREATE_CONTENT",
+          "MANAGE"
+        ]
+      },
+      {
+        "access_token": "EAAEXZADGg3x4BAAzFs7ZBikMPjeOTzp0v0ONYvDUrrk4kb14JOUExqOmOSyAd4iMQB8LTX09x0iXunTiig9ZCgA1R3RrNJ85z1bXPZApqvxdH360Xj0vsYrulPMGS9UZAZAZASR16UBZBbpJEMcQt15aMvHtTAWz6oJqZC8CxYc3rcEYXfHUxqgAbJs254f48rAgZD",
+        "category": "Concesionaria",
+        "category_list": [
+          {
+            "id": "131962450204676",
+            "name": "Concesionaria"
+          },
+          {
+            "id": "188620891159326",
+            "name": "Fabricante de automóviles"
+          },
+          {
+            "id": "149998721725634",
+            "name": "Taller de reparación de automóviles"
+          }
+        ],
+        "name": "Mirasol, tu concesionario Chevrolet",
+        "id": "100251993398955",
+        "tasks": [
+          "ANALYZE",
+          "ADVERTISE",
+          "MODERATE",
+          "CREATE_CONTENT",
+          "MANAGE"
+        ]
+      },
+      {
+        "access_token": "EAAEXZADGg3x4BAFzuJAsXjY23FiFTZBE1DZBZAgOengI9aCqVpSzZCESkl7syKgXcSxaHZCJ2ZBM1N94cSZAbkeeHzttUHvmACFwdgdNTeVwpf2ZBq0c9pXfl2ndK3ndrsrgvbmiiAsJibInT2xTgMi00R5peRZB63ZAzJ3xNhWchPJnk282t3ZCN7LyTxF3dxlsZClMZD",
+        "category": "Concesionaria",
+        "category_list": [
+          {
+            "id": "131962450204676",
+            "name": "Concesionaria"
+          },
+          {
+            "id": "1223524174334504",
+            "name": "Servicio automotor"
+          },
+          {
+            "id": "188620891159326",
+            "name": "Fabricante de automóviles"
+          }
+        ],
+        "name": "Proauto - Chevrolet Ecuador",
+        "id": "102709523151912",
+        "tasks": [
+          "ANALYZE",
+          "ADVERTISE",
+          "MODERATE",
+          "CREATE_CONTENT",
+          "MANAGE"
+        ]
+      },
+      {
+        "access_token": "EAAEXZADGg3x4BACdUfrrWrccEZB4Q94v6ZCZASHMISbyKFj0QGlx7FzsBluWv0HYVjSMaarcZBNmdI3migy5ZAqV7TjoGyDpZAM26Md7gQdqUnlmZCKUl6xLR3mJ0mKDCj9wxbERTjY6ZC4ZBs4EElseK8Fze9IZCoxR2wHKTCnkX1iBnKPPUujemJRZBgQVeLR1qfEZD",
+        "category": "Asesor automotor",
+        "category_list": [
+          {
+            "id": "184888278217935",
+            "name": "Asesor automotor"
+          },
+          {
+            "id": "196357563722974",
+            "name": "Servicio de cambio de aceite y filtro"
+          },
+          {
+            "id": "2205",
+            "name": "Automóviles"
+          }
+        ],
+        "name": "Automotores de la Sierra S.A.",
+        "id": "102975373121097",
+        "tasks": [
+          "ANALYZE",
+          "ADVERTISE",
+          "MODERATE",
+          "CREATE_CONTENT",
+          "MANAGE"
+        ]
+      },
+      {
+        "access_token": "EAAEXZADGg3x4BAOZBjMCIKd881PdM0ZBoQgf2Ivh6F4735f8lYnS29L8ZCDkyPfqxZCRR8enK3S8m89NNyrnqD8yQRYRWYzwTjyEWVTjEbDP3QBbcRy0uP5U4Oi1PZCxZCj5g1affJjhdJZBk8DzcbYbgpqAOMMnhhYk6KLA92YuzN0hs5FZB4kXucoaSCH0xZBi4ZD",
+        "category": "Concesionaria",
+        "category_list": [
+          {
+            "id": "131962450204676",
+            "name": "Concesionaria"
+          },
+          {
+            "id": "139492049448901",
+            "name": "Tienda de repuestos de automóviles"
+          },
+          {
+            "id": "2205",
+            "name": "Automóviles"
+          }
+        ],
+        "name": "Imbauto - Chevrolet Ecuador",
+        "id": "110949262338432",
+        "tasks": [
+          "ANALYZE",
+          "ADVERTISE",
+          "MODERATE",
+          "CREATE_CONTENT",
+          "MANAGE"
+        ]
+      },
+      {
+        "access_token": "EAAEXZADGg3x4BAB49UW4lIwDfLxprZCPp5C5krI1h6JgKOjTm9DAJibS75jJJ4Vb67EUeRZA61wAHmsZCLSpdEwn9wxEZCcICB9krXgirRfeyIHJ2u0J19unYmHY4NZARb2eyGbSbwB5uWuF0LhA3T82X8bgtBBxcgvxfVTL5ZANHzYfFFw5NxAZAavPG52eSccZD",
+        "category": "Automóviles",
+        "category_list": [
+          {
+            "id": "2205",
+            "name": "Automóviles"
+          },
+          {
+            "id": "131962450204676",
+            "name": "Concesionaria"
+          },
+          {
+            "id": "149998721725634",
+            "name": "Taller de reparación de automóviles"
+          }
+        ],
+        "name": "Autolasa",
+        "id": "120395841308243",
+        "tasks": [
+          "ANALYZE",
+          "ADVERTISE",
+          "MODERATE",
+          "CREATE_CONTENT",
+          "MANAGE"
+        ]
+      },
+      {
+        "access_token": "EAAEXZADGg3x4BAAVjpGbZCAKrJFmNghcP4wc1HAy8tgbr0KIfNLVmh0A50M34cn53xdKkjzhNrA6TKgQgK552DyWfqof6ixyfwAk14kxBRNmodR8YZC0qG4IuiOQoK4j6TFXqZAW3C54e8ZAf1e9PZCeP7h1auFTCs4YrOf0QEwFXK8wRQeLfbTRLKCg95U8QZD",
+        "category": "Negocio local",
+        "category_list": [
+          {
+            "id": "2500",
+            "name": "Negocio local"
+          }
+        ],
+        "name": "EcuaAuto Chevrolet",
+        "id": "138418262880090",
+        "tasks": [
+          "ANALYZE",
+          "ADVERTISE",
+          "MODERATE",
+          "CREATE_CONTENT",
+          "MANAGE"
+        ]
+      },
+      {
+        "access_token": "EAAEXZADGg3x4BAH5ZAFuL4dvZALZAynPZBxL7BbHp5AqFvaNFqLHwcAnkriFwY7gXniNWLZASo3MxAwpFZB1b451jZAfZAgWOs1d4KR8j0nQLkqbEfpZCQSnnSJ8HhFYu7znduyHQ383pbepLs66et1VgffYGwVJ2omZCXHddckh1qOG60t4GZBlSDTDdlZC0puZCx484ZD",
+        "category": "Empresa de vehículos de motor",
+        "category_list": [
+          {
+            "id": "2240",
+            "name": "Empresa de vehículos de motor"
+          }
+        ],
+        "name": "Automotores Continental - Chevrolet",
+        "id": "178069675574451",
+        "tasks": [
+          "ANALYZE",
+          "ADVERTISE",
+          "MODERATE",
+          "CREATE_CONTENT",
+          "MANAGE"
+        ]
+      },
+      {
+        "access_token": "EAAEXZADGg3x4BALjgF3OEJYbrZCGDrI7ItYTKqPUvHJmV3naPOCmZAQrz7COgHH2Uxlyv6ZAFBeQK2KReDcFVQgBaQSgAeS0ZBPJd2f3kcnHgKpbbhaYcanVEBTwBp8qmd5tR7QFZBpKJ0Q37MrKg0vRXHuVZAFw6YlYoDQ4H4SYqTZBekNoIwed8GlZBjBzjTPQZD",
+        "category": "Empresa de vehículos de motor",
+        "category_list": [
+          {
+            "id": "2240",
+            "name": "Empresa de vehículos de motor"
+          }
+        ],
+        "name": "CentralCar Ecuador",
+        "id": "198613493531732",
+        "tasks": [
+          "ANALYZE",
+          "ADVERTISE",
+          "MODERATE",
+          "CREATE_CONTENT",
+          "MANAGE"
+        ]
+      },
+      {
+        "access_token": "EAAEXZADGg3x4BADnZCF0yUzlbkRmFGSReGbwyEbMFkQDJdhB0Sgu6NZB4HtV0HjEi8EjJeWDRWLHlickO9fo4hVxuJCaBCkk5mKDsgBEso2huG7oBOTdCtovTQ7qCRIODagO3wCbZC97aZBh2b5X9ojgvYWZB7Ya6LmLNwt8ZAPqaejOY94itJO5ZBfMnFE2pj8ZD",
+        "category": "Concesionaria",
+        "category_list": [
+          {
+            "id": "131962450204676",
+            "name": "Concesionaria"
+          }
+        ],
+        "name": "Vallejo Araujo - Chevrolet Ecuador",
+        "id": "214707211920050",
+        "tasks": [
+          "ANALYZE",
+          "ADVERTISE",
+          "MODERATE",
+          "CREATE_CONTENT",
+          "MANAGE"
+        ]
+      },
+      {
+        "access_token": "EAAEXZADGg3x4BAPjCvpjwrCH6youzebyFyP9gS6sP2SOKbIJpYvREb76To7FgQ8KR090OwuZBakicjAa9G8XQWSYZAtmbGLXfLqQTjCYpOdJU296WGHQt81NTVqDClZChNgibMqQ9QbSFSpJq1ukgTtIiNB3tlZBUgjuZBuacvXeOQMRCFgP5YuYZA8AOzQwG0ZD",
+        "category": "Concesionaria",
+        "category_list": [
+          {
+            "id": "131962450204676",
+            "name": "Concesionaria"
+          },
+          {
+            "id": "2240",
+            "name": "Empresa de vehículos de motor"
+          },
+          {
+            "id": "139492049448901",
+            "name": "Tienda de repuestos de automóviles"
+          }
+        ],
+        "name": "Metrocar - Chevrolet Ecuador",
+        "id": "350444891656478",
+        "tasks": [
+          "ANALYZE",
+          "ADVERTISE",
+          "MODERATE",
+          "CREATE_CONTENT",
+          "MANAGE"
+        ]
+      },
+      {
+        "access_token": "EAAEXZADGg3x4BAF9v4bYGzKIs1KAYkcqPobG4AP3MkXKZCbLfQ8EqywBYLarSgG2v31YdNJzr4y41DpudakBxWLZBeBHs1Wz5yg3HdigmbPPUxZCPzGqya6hctzKQqS4Mszal4hyljBHXctT0Rzt8NGBP7VLOal4qelDGJzJS6ykQCE24JxH2nZAwqOuZCXhkZD",
+        "category": "Concesionaria",
+        "category_list": [
+          {
+            "id": "131962450204676",
+            "name": "Concesionaria"
+          },
+          {
+            "id": "149998721725634",
+            "name": "Taller de reparación de automóviles"
+          },
+          {
+            "id": "139492049448901",
+            "name": "Tienda de repuestos de automóviles"
+          }
+        ],
+        "name": "Induauto S.A",
+        "id": "431313777070551",
+        "tasks": [
+          "ANALYZE",
+          "ADVERTISE",
+          "MODERATE",
+          "CREATE_CONTENT",
+          "MANAGE"
+        ]
+      },
+      {
+        "access_token": "EAAEXZADGg3x4BAGnBWGqv7jt7747MT9LnPyO4O8VQL1Qr531duKR5pcFPRbIKi9Vl3BAmlYGSmLyo4NQs8vWFRm4Ko0fr2GZCZAO31dHcW6MDwYXxfDYHE2dJuyRYPyR43G2mnZBSCul94EkQpIM3v35KGNQ0uAgAlvxCg7eTFX7z8Ho92X3ks3OzTjZAZBw0ZD",
+        "category": "Fabricante de automóviles",
+        "category_list": [
+          {
+            "id": "188620891159326",
+            "name": "Fabricante de automóviles"
+          },
+          {
+            "id": "139492049448901",
+            "name": "Tienda de repuestos de automóviles"
+          },
+          {
+            "id": "149998721725634",
+            "name": "Taller de reparación de automóviles"
+          }
+        ],
+        "name": "Autolandia",
+        "id": "1534975333388165",
+        "tasks": [
+          "ANALYZE",
+          "ADVERTISE",
+          "MODERATE",
+          "CREATE_CONTENT",
+          "MANAGE"
+        ]
+      },
+      {
+        "access_token": "EAAEXZADGg3x4BAOIOxfuf05Hwod8FPL1JQF8ZAIU0h0VsVzNVSnnie6M7NZCNhraNWQsaPiYn5heODs3iMGkjZCchs3dQPFr83BvoNsM2CnZBdaZAYxcMC8hIYZCBr1ZBXLBAPKJsm8hxys4dxwVsRTQ3ltvDfWnX6EFUhzdgA7ap5QFZCD4fy5aUZAqd3BuZBHPHIZD",
+        "category": "Concesionaria de camiones comerciales",
+        "category_list": [
+          {
+            "id": "1143366362371705",
+            "name": "Concesionaria de camiones comerciales"
+          }
+        ],
+        "name": "ASSA Camiones y Buses",
+        "id": "2386021881432263",
+        "tasks": [
+          "ANALYZE",
+          "ADVERTISE",
+          "MODERATE",
+          "CREATE_CONTENT",
+          "MANAGE"
+        ]
+      }
+    ],
+    "paging": {
+      "cursors": {
+        "before": "MjUwNzg4OTg2ODYz",
+        "after": "MjM4NjAyMTg4MTQzMjI2MwZDZD"
+      }
+    }
+  },
+  "co": {
+    "data": [
+      {
+        "access_token": "EAASnqtm3tj8BAMIbz9SAOlwOyYENZB1qMsyL7kuWW2IY0zM0NCJoICidfz7fmYosvPz77TyBaaTT0NdrhEpg66ShiOxWjTqq5ISYjDy1ZCSZBQvccrs235hOrcH7ZBcw2BPASZCkZCKTfZCk48FPw1uq2GB7vt2mqGyFsWffEKN5whemyWBzHK4Ve6Lk4oUZAH8ZD",
+        "category": "Automóviles",
+        "category_list": [
+          {
+            "id": "2205",
+            "name": "Automóviles"
+          },
+          {
+            "id": "625688294262999",
+            "name": "Concesionaria de automóviles"
+          },
+          {
+            "id": "2240",
+            "name": "Empresa de vehículos de motor"
+          }
+        ],
+        "name": "AUTOLITORAL",
+        "id": "38113997984",
+        "tasks": [
+          "ANALYZE",
+          "ADVERTISE",
+          "MODERATE",
+          "CREATE_CONTENT",
+          "MANAGE"
+        ]
+      },
+      {
+        "access_token": "EAASnqtm3tj8BABiN6o7iWNHBZBnkpuiJzAGR4zTYGdZBk7OZBDU9lZBOf1pJZBkE1y5AmH0NXWB6ZAUifH9fthVijt82sUmdHii8YwVp9iBvXZBpUdPo5zotgTcr6lLFGC6vPOq0ic8ZASP8wKuFIaO4ghumScOfy2VRDn81cwaxuFran068Akh8AaAK9nXuRcYZD",
+        "category": "Automóviles",
+        "category_list": [
+          {
+            "id": "2205",
+            "name": "Automóviles"
+          },
+          {
+            "id": "2240",
+            "name": "Empresa de vehículos de motor"
+          }
+        ],
+        "name": "Auto Grande - Chevrolet",
+        "id": "57016447471",
+        "tasks": [
+          "ANALYZE",
+          "ADVERTISE",
+          "MODERATE",
+          "CREATE_CONTENT",
+          "MANAGE"
+        ]
+      },
+      {
+        "access_token": "EAASnqtm3tj8BACFWH751CXIlFEjiiKPUArvfbctgU53uHfuhqdKC9uJdiMGURKDSEXxd2bZBrc8wEFSzP1kLa7Ly0xrEHDiC9ZCVCcjC82WtJPzQ7qPylOPHETzOh9IPVwsUhaPFn4U61AF5YeHwZAieMMsPQJTSSF1kZA8aSvDxZCnVKNuCmQvBGIaSoHMgZD",
+        "category": "Asesor automotor",
+        "category_list": [
+          {
+            "id": "184888278217935",
+            "name": "Asesor automotor"
+          },
+          {
+            "id": "196516643707440",
+            "name": "Instalación de almacenamiento de automóviles"
+          },
+          {
+            "id": "188462984509706",
+            "name": "Taller de autopartes"
+          }
+        ],
+        "name": "Autoniza, Se lo garantiza",
+        "id": "110957562296488",
+        "tasks": [
+          "ANALYZE",
+          "ADVERTISE",
+          "MODERATE",
+          "CREATE_CONTENT",
+          "MANAGE"
+        ]
+      },
+      {
+        "access_token": "EAASnqtm3tj8BAJtrSxfr8PzZBRclcZCZBZBnS6K92YbBGLgJ1n5xWo9ZBlJuIssQGXRDtAOr5ptb3QjxGwZAZAGY8nnaIOVT8ZAd2FQdT56Dh4D4YDVHGrCYxT6bZC51t3iu6xrvZCZAxkqZBj2r8UNRiMRZCPhwVbiDw3YXOcdN55ZAMS34PBWfZC55MjYmDAgykDLLP8ZD",
+        "category": "Automóviles",
+        "category_list": [
+          {
+            "id": "2205",
+            "name": "Automóviles"
+          }
+        ],
+        "name": "Chevrolet",
+        "id": "113515275375025",
+        "tasks": [
+          "ANALYZE",
+          "ADVERTISE",
+          "MODERATE",
+          "CREATE_CONTENT",
+          "MANAGE"
+        ]
+      },
+      {
+        "access_token": "EAASnqtm3tj8BAJ1wlhix1ULRhBwDZBBE4iYqLIB7wzPAyQ80t8Vz7iiGgxuYCMfSe7hAWKkHOAioF2pOEczsKBZCbAdVcDNCisxvphuBDfQye0pCN8im2kGUZBdYRZAUm7ICfUIxrha3SF5ZBZBcv23cZCwZBV6dOBREfvdmIZBeIjN48VFnr9F7T1qJmt2ZB65IoZD",
+        "category": "Concesionaria",
+        "category_list": [
+          {
+            "id": "131962450204676",
+            "name": "Concesionaria"
+          }
+        ],
+        "name": "Autolarte Chevrolet",
+        "store_number": 3,
+        "id": "115379029087588",
+        "tasks": [
+          "ANALYZE",
+          "ADVERTISE",
+          "MODERATE",
+          "CREATE_CONTENT",
+          "MANAGE"
+        ]
+      },
+      {
+        "access_token": "EAASnqtm3tj8BAFjxY0nyQSZBjlmhiGKZC7zm25vMwyTqzYaZAZAODQ7M2wv1VYqYxLJvsgKmRldvvFBGZC740CksaZB6QWG9edQ6jKgQHqJsJhFSL9UhRCtaTxIUwEYlzZCZCTnZCJGZBSuhADkVuW7TAuz6qx20IepfrAKln7tU9bM6CxN6RM4x2zg54OU5U0MyEZD",
+        "category": "Tienda de repuestos de automóviles",
+        "category_list": [
+          {
+            "id": "139492049448901",
+            "name": "Tienda de repuestos de automóviles"
+          },
+          {
+            "id": "2240",
+            "name": "Empresa de vehículos de motor"
+          },
+          {
+            "id": "625688294262999",
+            "name": "Concesionaria de automóviles"
+          }
+        ],
+        "name": "Concesionario Autopacífico Chevrolet",
+        "id": "133818506637790",
+        "tasks": [
+          "ANALYZE",
+          "ADVERTISE",
+          "MODERATE",
+          "CREATE_CONTENT",
+          "MANAGE"
+        ]
+      },
+      {
+        "access_token": "EAASnqtm3tj8BAOe1GZBL48Rcrh5ijWR2fRoXa4B5IcCZAk34v0PUoGBkxG48OArfQ3eOksZAH7VP2m8dvzMOMvGd5B0gDGJE8C8pSB0caTa26Ip1HALR5WSobEa6RrQE3d3cuTZCACuA65fxBaKwx4ZAUhZAAsJOfz5SV2FBQSnfOdmOfHNLKF50ZBbNd3X4moZD",
+        "category": "Concesionaria",
+        "category_list": [
+          {
+            "id": "131962450204676",
+            "name": "Concesionaria"
+          },
+          {
+            "id": "1223524174334504",
+            "name": "Servicio automotor"
+          },
+          {
+            "id": "2205",
+            "name": "Automóviles"
+          }
+        ],
+        "name": "Concesionario Ayurá Motor",
+        "id": "157055790993016",
+        "tasks": [
+          "ANALYZE",
+          "ADVERTISE",
+          "MODERATE",
+          "CREATE_CONTENT",
+          "MANAGE"
+        ]
+      },
+      {
+        "access_token": "EAASnqtm3tj8BANmJJMTUbtBYDuzsPQDYLBe3H5LbtvpiLxWChGjuR2qf79nW8UHJco4gzdgEB55ZBRvgunBOfSGRXZCP1fLZAoSjY8wNpZCMvkZAlLDyZBYCZAOpGT3Xqh9g3mGnQrdlNxx7ZAyzEdwEodFBsQZCI5Ha6A0vNgMyiOdBdtfyo02JBp5gNfzCZCUkMZD",
+        "category": "Automóviles",
+        "category_list": [
+          {
+            "id": "2205",
+            "name": "Automóviles"
+          },
+          {
+            "id": "188620891159326",
+            "name": "Fabricante de automóviles"
+          }
+        ],
+        "name": "Continautos Chevrolet",
+        "id": "192130580893165",
+        "tasks": [
+          "ANALYZE",
+          "ADVERTISE",
+          "MODERATE",
+          "CREATE_CONTENT",
+          "MANAGE"
+        ]
+      },
+      {
+        "access_token": "EAASnqtm3tj8BAJl2zlJUKKrW4yTTWTLtV0bW9QbcNcAHON13boz2gTLIoNWKhWm9eHdafILs1G5ZCn0RE1lNjf5KVsZAeY1FCK1rFR4ElYGGYoHgc5W3M7pz5zElTrdVqMQdNBixIsVduX8buvtZAsK8afGZAXlvgZBDdrUqSKhjfE8oAaNIkFfZBEpOJKLm4ZD",
+        "category": "Concesionaria",
+        "category_list": [
+          {
+            "id": "131962450204676",
+            "name": "Concesionaria"
+          },
+          {
+            "id": "2240",
+            "name": "Empresa de vehículos de motor"
+          },
+          {
+            "id": "1874409019452971",
+            "name": "Localidad"
+          }
+        ],
+        "name": "ANDAR CHEVROLET",
+        "id": "207119455991870",
+        "tasks": [
+          "ANALYZE",
+          "ADVERTISE",
+          "MODERATE",
+          "CREATE_CONTENT",
+          "MANAGE"
+        ]
+      },
+      {
+        "access_token": "EAASnqtm3tj8BALy2NaLOBrZCpGDYURCclt13sJkuIo6OfZBcH8jQhJErAzQGTJ25yGHZB1CY7M6pjezpbtrUXqmFAzQnIJ8yx0yHpyO3pBi8EuZAayUS13I2xO8J3FmbU2BKob4iWRWHwVztaILq2zG4neesZBJU2lbY3Nbst0Y17DPCpMJnMUXOosoxPsZCMZD",
+        "category": "Empresa de vehículos de motor",
+        "category_list": [
+          {
+            "id": "2240",
+            "name": "Empresa de vehículos de motor"
+          },
+          {
+            "id": "139492049448901",
+            "name": "Tienda de repuestos de automóviles"
+          },
+          {
+            "id": "625688294262999",
+            "name": "Concesionaria de automóviles"
+          }
+        ],
+        "name": "Yanaconas Motor Chevrolet",
+        "id": "239887922793137",
+        "tasks": [
+          "ANALYZE",
+          "ADVERTISE",
+          "MODERATE",
+          "CREATE_CONTENT",
+          "MANAGE"
+        ]
+      },
+      {
+        "access_token": "EAASnqtm3tj8BAAfvFYZAnOZAEdkNWfgtkjDdD0nCjRoEYpLVF0I3fgxc4JX0ZCwSKCc9IW5da57SwTVeVZBpM6d2HfYAPgzZB33SaqUrfVpvyBYU7Lqqx9BkiHODCKDA9jHD5GzOty6z80OpmOEZAl9QwcNESzccZCsQZBKQF4G0DxpXQquEndKfmQbx2Vw70ywZD",
+        "category": "Taller de reparación de automóviles",
+        "category_list": [
+          {
+            "id": "149998721725634",
+            "name": "Taller de reparación de automóviles"
+          },
+          {
+            "id": "131962450204676",
+            "name": "Concesionaria"
+          },
+          {
+            "id": "139492049448901",
+            "name": "Tienda de repuestos de automóviles"
+          }
+        ],
+        "name": "Country Motors - Concesionario Chevrolet",
+        "id": "245679545479377",
+        "tasks": [
+          "ANALYZE",
+          "ADVERTISE",
+          "MODERATE",
+          "CREATE_CONTENT",
+          "MANAGE"
+        ]
+      },
+      {
+        "access_token": "EAASnqtm3tj8BAO5JPjrggAy6nbdjeCsn3XpKqMiLBC9t793ZAWessly4T4u3k72vQYc1yzZA7Y4ZCS4SIsUXWqiAZC53Pogrqe66kZCoshiiCGQDY4iMq2K0z5YNnNxAANr0WpYXKIhmDhqHhcihZBvtXDNIUuVWr56EmfgVLmhwb1yinwbhZAVwcfUWbU7rusZD",
+        "category": "Concesionaria",
+        "category_list": [
+          {
+            "id": "131962450204676",
+            "name": "Concesionaria"
+          }
+        ],
+        "name": "Autolarte Chevrolet",
+        "store_number": 4,
+        "id": "289467041527428",
+        "tasks": [
+          "ANALYZE",
+          "ADVERTISE",
+          "MODERATE",
+          "CREATE_CONTENT",
+          "MANAGE"
+        ]
+      },
+      {
+        "access_token": "EAASnqtm3tj8BAJ0pkyTAOldN22IPEA2QcwXYDTvx29RAlvlhNPmK0VmqyjJvLvVnVNbVifzR9n7iufyx0fDdZANAzI397xBoff54f0BjaFYYNdGrc4wVGLHSCC344L0c90ZA3HCvhhVkTLoRqgGsURlizZAHOnZCcZCHy9PTW1OoG2ZCm4XP6ZCCBZBAouwTmN0ZD",
+        "category": "Empresa de vehículos de motor",
+        "category_list": [
+          {
+            "id": "2240",
+            "name": "Empresa de vehículos de motor"
+          },
+          {
+            "id": "139492049448901",
+            "name": "Tienda de repuestos de automóviles"
+          },
+          {
+            "id": "625688294262999",
+            "name": "Concesionaria de automóviles"
+          }
+        ],
+        "name": "Autosuperior Chevrolet",
+        "id": "308237949282079",
+        "tasks": [
+          "ANALYZE",
+          "ADVERTISE",
+          "MODERATE",
+          "CREATE_CONTENT",
+          "MANAGE"
+        ]
+      },
+      {
+        "access_token": "EAASnqtm3tj8BAPfaEtvZCQ53TyAYm9iZCdWm3DjWqAWqZAcxDm9ttJK4Fwt1y0rih0ybaDELP3PpwI4LsI3e48RxXSWqriZBTsDSioJqPYuMdL8BIbtPivK3ZBZBZAgZBDZBmsZBZBhgOFNPYnzErxXHipNaw4arZA6eg4wjZCOWC8tXyfx9g76v27fy5qu9rRQ9TGCUZD",
+        "category": "Vendedor de partes automotrices",
+        "category_list": [
+          {
+            "id": "192507514101309",
+            "name": "Vendedor de partes automotrices"
+          },
+          {
+            "id": "131962450204676",
+            "name": "Concesionaria"
+          }
+        ],
+        "name": "CD Autoshop Chevrolet",
+        "id": "369194270513173",
+        "tasks": [
+          "ANALYZE",
+          "ADVERTISE",
+          "MODERATE",
+          "CREATE_CONTENT",
+          "MANAGE"
+        ]
+      },
+      {
+        "access_token": "EAASnqtm3tj8BAO7gQIpp1Vzyd5TLnt1mgvn2DY5KRZCrYhY93R4kfn6xGu932vjFSz50313ziace8svK8llEx9XLn0z4lP8k5HzyaAX4SjBMCsLXea5qUYKXa2ipc33C7PTQ9xaF0hqOitDtZCxKPMXSzEaZCvoh6HK9EINb20VpYF7MTy4cjzO4o0hsskZD",
+        "category": "Empresa de vehículos de motor",
+        "category_list": [
+          {
+            "id": "2240",
+            "name": "Empresa de vehículos de motor"
+          },
+          {
+            "id": "625688294262999",
+            "name": "Concesionaria de automóviles"
+          }
+        ],
+        "name": "Disautos Chevrolet",
+        "id": "370967893075851",
+        "tasks": [
+          "ANALYZE",
+          "ADVERTISE",
+          "MODERATE",
+          "CREATE_CONTENT",
+          "MANAGE"
+        ]
+      },
+      {
+        "access_token": "EAASnqtm3tj8BAI5HgAilFcw75fmjwIfyOTl8p6GSJFajlmqZCN4lJ8kmDtJjrSkB0QQeF3NN1fPCH7cOe6tcMtRuEtia9FBFPnMoxJRx5ZBh49uQW1vZAY8z9ZBMv3BvYuUf9mZAvFL6V0oBWi4QQqgGvd7Gp1MyCI4HdoJq2P2jZARmZAcK7oQpS4MFZBnTRe4ZD",
+        "category": "Automóviles, aviones y embarcaciones",
+        "category_list": [
+          {
+            "id": "180410821995109",
+            "name": "Automóviles, aviones y embarcaciones"
+          }
+        ],
+        "name": "MARAUTOS",
+        "id": "378590182220571",
+        "tasks": [
+          "ANALYZE",
+          "ADVERTISE",
+          "MODERATE",
+          "CREATE_CONTENT",
+          "MANAGE"
+        ]
+      },
+      {
+        "access_token": "EAASnqtm3tj8BALmrIAQkAQbFcF6rZA2y9fQclBPZB088Vpeahdr353ADpqNHZBiVN900z0pRJGsAPWcr4Sh9JqqdcpqJ8h4MmJLIZCTlTLCiyyNdZB61IxEuobb6THWu7TDs0ra5g8b5CSklGmsa6GWSRnpyG9A2AuLLToHtrLU1zGAIP9lJ0Un7lZANlzGjsZD",
+        "category": "Concesionaria",
+        "category_list": [
+          {
+            "id": "131962450204676",
+            "name": "Concesionaria"
+          }
+        ],
+        "name": "Chevrolet Vehicosta",
+        "id": "437465262964733",
+        "tasks": [
+          "ANALYZE",
+          "ADVERTISE",
+          "MODERATE",
+          "CREATE_CONTENT",
+          "MANAGE"
+        ]
+      },
+      {
+        "access_token": "EAASnqtm3tj8BAC6SzU0ZA2ZAeVZBKc3W4n2hHYoZCCKZCZAYi158LIgN9WNkjLfFLvZA3biQDbWyZBCRK0UxTkkYDGkZCdVT4RlaSeiZCy97wOu16ZCXhQoNYmaKl84rh0znNaItzw022LLOZA6ffdPc22OILUQNjEeNgNZBvjSvEv6skAtoToZBsG5YU9vIfcOLZBsx6wZD",
+        "category": "Concesionaria",
+        "category_list": [
+          {
+            "id": "131962450204676",
+            "name": "Concesionaria"
+          },
+          {
+            "id": "2240",
+            "name": "Empresa de vehículos de motor"
+          },
+          {
+            "id": "149998721725634",
+            "name": "Taller de reparación de automóviles"
+          }
+        ],
+        "name": "Llano Grande - Chevrolet",
+        "id": "453147818105509",
+        "tasks": [
+          "ANALYZE",
+          "ADVERTISE",
+          "MODERATE",
+          "CREATE_CONTENT",
+          "MANAGE"
+        ]
+      },
+      {
+        "access_token": "EAASnqtm3tj8BANG971uuNiSnA8YzWuZCZA2ey4lyMKX8kZCxMEVrD07FV9Q6d1EzM8ZCqwOUNW8nssJl39gxi6aw3Vxe7yaOcgvny6xd8hCb18ilZCjzCDc3C9hNFQuUd3m3Kb9GYXdsez0tJpdqZBD2vx8uhx1ZCLhubZCmAOCWxZAsMg8sfShomcqomMDQPKtgZD",
+        "category": "Concesionaria de automóviles",
+        "category_list": [
+          {
+            "id": "625688294262999",
+            "name": "Concesionaria de automóviles"
+          }
+        ],
+        "name": "Coltolima Ltda",
+        "id": "489382514508901",
+        "tasks": [
+          "ANALYZE",
+          "ADVERTISE",
+          "MODERATE",
+          "CREATE_CONTENT",
+          "MANAGE"
+        ]
+      },
+      {
+        "access_token": "EAASnqtm3tj8BAO6ZB09dhaBAnWVyZBe1kXLBMByLfAZCw51XWwXlyBJOao3ZAaR8vlMND7dhbz76szCbKGEu1FSXNe4HvaEijZA5ZA5SuEZBl5d6IrNtrZByBtZCW1xSkUWnLkEldA0PVOUYC6ptAcF3c3PtfE5cMDYcdXypsZBqgzxXDOVmVfY6HySaxea9rwXSIZD",
+        "category": "Concesionaria",
+        "category_list": [
+          {
+            "id": "131962450204676",
+            "name": "Concesionaria"
+          }
+        ],
+        "name": "Autolarte Chevrolet",
+        "store_number": 1,
+        "id": "515956202080850",
+        "tasks": [
+          "ANALYZE",
+          "ADVERTISE",
+          "MODERATE",
+          "CREATE_CONTENT",
+          "MANAGE"
+        ]
+      },
+      {
+        "access_token": "EAASnqtm3tj8BAJHUlBZCwjdNC0B12wxaxtZBVNKy477qZAmwTI3jUFdUkEDVvp4pSpohpYdf69PBRwjfEUolSFaLkFdFeO6ovnYtLlUKyLXsZAnpaBqSP7B3UpfkaMvzQ70XsRWj6dRYZBEuRisQFQZBtdZBf2jpyQKHvMWWDlL31DG5JfC6lPwmHLdQjio80kZD",
+        "category": "Empresa de vehículos de motor",
+        "category_list": [
+          {
+            "id": "2240",
+            "name": "Empresa de vehículos de motor"
+          }
+        ],
+        "name": "Automotores San Jorge",
+        "id": "645796208800475",
+        "tasks": [
+          "ANALYZE",
+          "ADVERTISE",
+          "MODERATE",
+          "CREATE_CONTENT",
+          "MANAGE"
+        ]
+      },
+      {
+        "access_token": "EAASnqtm3tj8BAODV8znosuDkCZCGZC5hP0ZCZCSn0kNugLD93tQtO2e6E9g19WKMiryuQcrKpu3ZCMzMuBf4H4zBTp7Msprvqo1gVKIdMp6ZCXVECsJp1B8mbdkLVs9KmzwEtpRNyK3ZCJERZBEHQV2R93NE0x1ZAyUAb10hGGG5AlcdoFvoRSKHylmrvdPlnZCC0ZD",
+        "category": "Concesionaria",
+        "category_list": [
+          {
+            "id": "131962450204676",
+            "name": "Concesionaria"
+          }
+        ],
+        "name": "Llano Grande - Chevrolet",
+        "store_number": 1,
+        "id": "665449046977280",
+        "tasks": [
+          "ANALYZE",
+          "ADVERTISE",
+          "MODERATE",
+          "CREATE_CONTENT",
+          "MANAGE"
+        ]
+      },
+      {
+        "access_token": "EAASnqtm3tj8BABzljdmvqrjGuTGfGppDftHMjkZCwzuw7HOHKejyONPOYM5ao4HlfiC86D9eiuKVlZA1swV9PqaSSIhCJxtkxZBEvJv9iJrOauRwnD1Osr59AmxGu4a0b8ABio6Rn5DjhkCumlrCqMx4aw8VHZAoggZCopoOdh00BJryDEiTrRICEz3XCelQZD",
+        "category": "Empresa de vehículos de motor",
+        "category_list": [
+          {
+            "id": "2240",
+            "name": "Empresa de vehículos de motor"
+          }
+        ],
+        "name": "Casa Restrepo",
+        "id": "719979061356122",
+        "tasks": [
+          "ANALYZE",
+          "ADVERTISE",
+          "MODERATE",
+          "CREATE_CONTENT",
+          "MANAGE"
+        ]
+      },
+      {
+        "access_token": "EAASnqtm3tj8BAKuunWwrkZAowLxC6Ni9n9yiYruhbXZBJrMiX5IkqfQjHy1vZBjrwOCCoFTbKact8RP9oLEwIOew7ZAUyGEZAHt0tZBd1JbpTNWdX6JwkFJ89CTL3WgTpWaxZBEgTD57BWqDSmUPtbO9AYKUdISynonTd8o0TisfuO1CixuNB7vfV7ZC7TuZAA0sZD",
+        "category": "Concesionaria",
+        "category_list": [
+          {
+            "id": "131962450204676",
+            "name": "Concesionaria"
+          },
+          {
+            "id": "184888278217935",
+            "name": "Asesor automotor"
+          },
+          {
+            "id": "2240",
+            "name": "Empresa de vehículos de motor"
+          }
+        ],
+        "name": "Chevrolet Automarcali Pasoancho",
+        "id": "905408789511582",
+        "tasks": [
+          "ANALYZE",
+          "ADVERTISE",
+          "MODERATE",
+          "CREATE_CONTENT",
+          "MANAGE"
+        ]
+      },
+      {
+        "access_token": "EAASnqtm3tj8BAMjEZB0wzztf53b9hybYsneiZANQuM4skakAoZBgCCWZBLXBs6Fqmg9JD32OoNIGVPG9WIFtiJrEua7L82PCMZAaTzJrjfT5oumt9nZBNr2RB8lGBzDfmEIjwp0GhpYZB7Wy77YxW0Ml1Nry4QXUuuerhMjaqmGQgxrAzKpsM5YulkliiQjWpgZD",
+        "category": "Taller de reparación de automóviles",
+        "category_list": [
+          {
+            "id": "149998721725634",
+            "name": "Taller de reparación de automóviles"
+          },
+          {
+            "id": "131962450204676",
+            "name": "Concesionaria"
+          },
+          {
+            "id": "2205",
+            "name": "Automóviles"
+          }
+        ],
+        "name": "ALL CAR Chevrolet",
+        "id": "1150132355130614",
+        "tasks": [
+          "ANALYZE",
+          "ADVERTISE",
+          "MODERATE",
+          "CREATE_CONTENT",
+          "MANAGE"
+        ]
+      },
+      {
+        "access_token": "EAASnqtm3tj8BAE3I3TAf2ptvYQnEYNted2ArRfZAR1ZCszQKv7s2UfZBhKcyVEBGSzAbBTyDfHAUECOaZAQVmkvk9ZAQ5Dko2ZBMenccuN5rxCcXwKAPwZCvEt6MsNnLsYakMV6P3AwTGaBic1DW79Crc9JrQWRShu440n9vQiLuo9VSgvWstlEC7At5LfbXM4ZD",
+        "category": "Concesionaria",
+        "category_list": [
+          {
+            "id": "131962450204676",
+            "name": "Concesionaria"
+          }
+        ],
+        "name": "Autolarte Chevrolet",
+        "store_number": 2,
+        "id": "1849077892088853",
+        "tasks": [
+          "ANALYZE",
+          "ADVERTISE",
+          "MODERATE",
+          "CREATE_CONTENT",
+          "MANAGE"
+        ]
+      },
+      {
+        "access_token": "EAASnqtm3tj8BAMrhrZAxoNF93QtpRh8UMvWKlWXXScBl3MZBu5jNmZCkKvcFYdUolYdm1mmYgYsYDPsucquat2yOCE8UVji0k8hTZBrwLoPo7ZAPDGu1n4lgPA4iruSHIQ0gmAio1Ji89A9VFCpnT0AiLaePSaOqjdi96SFRwJHf4bPCiQHZBaAZA4ZAUjqdAO0ZD",
+        "category": "Concesionaria",
+        "category_list": [
+          {
+            "id": "131962450204676",
+            "name": "Concesionaria"
+          }
+        ],
+        "name": "Llano Grande - Chevrolet",
+        "store_number": 2,
+        "id": "2031667147066602",
+        "tasks": [
+          "ANALYZE",
+          "ADVERTISE",
+          "MODERATE",
+          "CREATE_CONTENT",
+          "MANAGE"
+        ]
+      }
+    ],
+    "paging": {
+      "cursors": {
+        "before": "MzgxMTM5OTc5ODQZD",
+        "after": "MjAzMTY2NzE0NzA2NjYwMgZDZD"
+      }
+    }
+  }
+}

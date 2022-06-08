@@ -1,0 +1,10 @@
+
+mixin container(paddingTop = 10, paddingRight = 10, paddingBottom = 5, paddingLeft = 30)
+  - var paddingStyles =  `padding-right: ${paddingRight}px; padding-left: ${paddingLeft}px; padding-top: ${paddingTop}px; padding-bottom: ${paddingBottom}px;`
+  - var fontFamilyStyles = `color:#555555;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;line-height:1.2;`;
+  | <!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="#{paddingStyles} #{fontFamilyStyles}"><![endif]-->
+  div(style=`${fontFamilyStyles} ${paddingStyles}`)
+    div(style=`font-size: 12px; ${fontFamilyStyles} mso-line-height-alt: 14px;`)
+      block
+
+  | <!--[if mso]></td></tr></table><![endif]-->
